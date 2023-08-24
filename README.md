@@ -1,2 +1,3 @@
-# RuleSample
-A sample rule for iNovelReader.
+# Rule Sample
+
+A sample rule for source parser.
