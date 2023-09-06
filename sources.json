@@ -48,7 +48,7 @@
     "catalogue_url": "//a@href",
     "charset": "gbk",
     "comment": "",
-    "content_content": "//div[2]/div[1]/div[3]@text",
+    "content_content": "//div[2]/div[1]/div[3]@text|function:replace( ,)|function:replace(\\u2003,)|function:replaceRegExp(\\n+,\\n\\u2003\\u2003)|function:trim()",
     "content_method": "get",
     "content_pagination": "",
     "enabled": true,
