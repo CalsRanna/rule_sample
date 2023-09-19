@@ -1,11 +1,11 @@
 [
     {
-        "name": "爱下电子书[proxy]",
+        "name": "爱下电子书",
         "url": "https://www.aixdzs.com",
         "enabled": true,
         "explore_enabled": false,
         "type": "book",
-        "comment": "",
+        "comment": "proxy",
         "header": "",
         "charset": "utf8",
         "search_url": "https://www.aixdzs.com/bsearch?q={{credential}}",
@@ -40,12 +40,12 @@
         "explore_json": ""
     },
     {
-        "name": "69书吧[proxy]",
+        "name": "69书吧",
         "url": "https://www.69shuba.com",
         "enabled": true,
         "explore_enabled": true,
         "type": "book",
-        "comment": "",
+        "comment": "proxy",
         "header": "{\n  \"Content-Type\": \"application/x-www-form-urlencoded\"\n}",
         "charset": "gbk",
         "search_url": "https://www.69shuba.com/modules/article/search.php?searchkey={{credential}}",
