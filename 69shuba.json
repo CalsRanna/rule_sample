@@ -33,6 +33,7 @@
   "catalogue_url": "//a@href",
   "catalogue_updated_at": "",
   "catalogue_pagination": "",
+  "catalogue_preset": "",
   "content_method": "get",
   "content_content": "//div[2]/div[1]/div[3]@text|dart.replace( ,)|dart.replace(\\u2003,)|dart.trim()|dart.replaceRegExp(\\n+,\\n\\u2003\\u2003)|dart.replaceRegExp(loadAdv.*;,)|dart.replaceRegExp(\\d+-\\d+-\\d+作者：.*\\n,)|dart.replaceRegExp(\\d*.?第.*章.*\\n\\u2003,)|dart.replace(\\u2003\\u2003\\u2003\\n,)",
   "content_pagination": "",

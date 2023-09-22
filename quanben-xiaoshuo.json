@@ -33,6 +33,7 @@
   "catalogue_url": "//a@href",
   "catalogue_updated_at": "",
   "catalogue_pagination": "",
+  "catalogue_preset": "",
   "content_method": "get",
   "content_content": "//div[3]/div/div[2]/p@text|dart.replaceRegExp(\\n+,\\n\\u2003\\u2003)|dart.replaceFirst(,\\u2003\\u2003)",
   "content_pagination": "",
