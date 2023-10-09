@@ -2,16 +2,16 @@
   "name": "二月天",
   "url": "http://www.xiaoshuo5200.net",
   "enabled": true,
-  "explore_enabled": false,
+  "explore_enabled": true,
   "type": "book",
-  "comment": "",
+  "comment": "🔞",
   "header": "{\n  \"Content-Type\": \"application/x-www-form-urlencoded\"\n}",
   "charset": "gbk",
   "search_url": "http://www.xiaoshuo5200.net/modules/article/search.php?searchtype=articlename&searchkey={{credential}}",
   "search_method": "post",
   "search_books": "//div[2]/div/div/div/div/div[2]/div/div|dart.sublist(1)",
   "search_name": "//img@alt",
-  "search_author": "//div@text",
+  "search_author": "//div@text|dart.replace(\\n,)|dart.trim()|dart.replaceRegExp(.*作者：,)",
   "search_category": "",
   "search_word_count": "",
   "search_introduction": "//p[1]@title",
@@ -37,5 +37,5 @@
   "content_method": "get",
   "content_content": "//*[@id=\"htmlContent\"]@text",
   "content_pagination": "",
-  "explore_json": ""
+  "explore_json": "[\n  {\n    \"layout\": \"banner\",\n    \"title\": \"热门推荐\",\n    \"exploreUrl\": \"http://www.xiaoshuo5200.net/lastupdate-1.html\",\n    \"charset\": \"gbk\",\n    \"list\": \"//div[2]/div/div/div/div/div[2]/div/div\",\n    \"name\": \"//div[1]/h6/a@text\",\n    \"cover\": \"//img@src\",\n    \"author\": \"//div[1]@text|dart.replace(\\n,)|dart.trim()|dart.replaceRegExp(.*作者：,)\",\n    \"status\": \"//div[1]/span@text\",\n    \"introduction\": \"//p[1]@text\",\n    \"url\": \"//div[1]/h6/a@href\"\n  },\n  {\n    \"layout\": \"card\",\n    \"title\": \"周点击榜\",\n    \"exploreUrl\": \"http://www.xiaoshuo5200.net/weekvisit-1.html\",\n    \"charset\": \"gbk\",\n    \"list\": \"//div[2]/div/div/div/div/div[2]/div/div\",\n    \"name\": \"//div[1]/h6/a@text\",\n    \"cover\": \"//img@src\",\n    \"author\": \"//div[1]@text|dart.replace(\\n,)|dart.trim()|dart.replaceRegExp(.*作者：,)\",\n    \"status\": \"//div[1]/span@text\",\n    \"introduction\": \"//p[1]@text\",\n    \"url\": \"//div[1]/h6/a@href\"\n  },\n  {\n    \"layout\": \"grid\",\n    \"title\": \"周推荐榜\",\n    \"exploreUrl\": \"http://www.xiaoshuo5200.net/allvote-1.html\",\n    \"charset\": \"gbk\",\n    \"list\": \"//div[2]/div/div/div/div/div[2]/div/div\",\n    \"name\": \"//div[1]/h6/a@text\",\n    \"cover\": \"//img@src\",\n    \"author\": \"//div[1]@text|dart.replace(\\n,)|dart.trim()|dart.replaceRegExp(.*作者：,)\",\n    \"status\": \"//div[1]/span@text\",\n    \"introduction\": \"//p[1]@text\",\n    \"url\": \"//div[1]/h6/a@href\"\n  },\n  {\n    \"layout\": \"card\",\n    \"title\": \"热门排行\",\n    \"exploreUrl\": \"http://www.xiaoshuo5200.net/monthvisit-1.html\",\n    \"charset\": \"gbk\",\n    \"list\": \"//div[2]/div/div/div/div/div[2]/div/div\",\n    \"name\": \"//div[1]/h6/a@text\",\n    \"cover\": \"//img@src\",\n    \"author\": \"//div[1]@text|dart.replace(\\\\n,)|dart.trim()|dart.replaceRegExp(.*作者：,)\",\n    \"status\": \"//div[1]/span@text\",\n    \"introduction\": \"//p[1]@text\",\n    \"url\": \"//div[1]/h6/a@href\"\n  },\n  {\n    \"layout\": \"grid\",\n    \"title\": \"站长推荐\",\n    \"exploreUrl\": \"http://www.xiaoshuo5200.net/allvisit-1.html\",\n    \"charset\": \"gbk\",\n    \"list\": \"//div[2]/div/div/div/div/div[2]/div/div\",\n    \"name\": \"//div[1]/h6/a@text\",\n    \"cover\": \"//img@src\",\n    \"author\": \"//div[1]@text|dart.replace(\\n,)|dart.trim()|dart.replaceRegExp(.*作者：,)\",\n    \"status\": \"//div[1]/span@text\",\n    \"introduction\": \"//p[1]@text\",\n    \"url\": \"//div[1]/h6/a@href\"\n  },\n  {\n    \"layout\": \"card\",\n    \"title\": \"原创更新\",\n    \"exploreUrl\": \"http://www.xiaoshuo5200.net/authorupdate-1.html\",\n    \"charset\": \"gbk\",\n    \"list\": \"//div[2]/div/div/div/div/div[2]/div/div\",\n    \"name\": \"//div[1]/h6/a@text\",\n    \"cover\": \"//img@src\",\n    \"author\": \"//div[1]@text|dart.replace(\\\\n,)|dart.trim()|dart.replaceRegExp(.*作者：,)\",\n    \"status\": \"//div[1]/span@text\",\n    \"introduction\": \"//p[1]@text\",\n    \"url\": \"//div[1]/h6/a@href\"\n  }\n]\n"
 }

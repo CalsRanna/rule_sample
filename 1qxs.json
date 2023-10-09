@@ -4,7 +4,7 @@
   "enabled": true,
   "explore_enabled": true,
   "type": "book",
-  "comment": "发现",
+  "comment": "",
   "header": "",
   "charset": "utf8",
   "search_url": "https://www.1qxs.com/search.html?kw={{credential}}",
